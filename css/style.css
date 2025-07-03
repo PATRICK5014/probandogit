@@ -1,0 +1,54 @@
+/**General**/
+*{
+    color: yellow;
+
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.header{
+    background-image: url(/img/header-background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    height: 50vh;
+    position:relative;
+}
+.contenedor-header a{margin-left: 20rem;}
+.contenedor-header a, .contenedor-header nav{width: 100%;}
+.contenedor-header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.contenedor-header nav a{
+    padding-left: 10%;
+}
+
+.header img {
+    width: 24rem;
+}
+
+.header img {
+    width: 24rem;
+}
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
